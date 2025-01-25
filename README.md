@@ -1,7 +1,7 @@
 # DsGamesList
-Hi everyone, greet meetings!
+Hi everyone, greetings!
 
-This project was developed during a course, teached by Nelio Alves.
-In this project, we develop and learned many things, like the H2 DBMS (in memmory database), use the PostMan Application (to testing APIs), use the Spring Tool Suit and relateds. Also we learned good ways to implement some kind of logics and business rules.  
+This project was developed during a course taught by Nelio Alves. 
+In this project, we developed and learned many things, such as using the H2 DBMS (an in-memory database), working with the Postman application (to test APIs), and utilizing the Spring Tool Suite and related tools. Additionally, we learned effective methods for implementing various types of logic and business rules.
 
-This course were offered from 20/01/2025 to 26/01/2025.
+This course was offered from January 20, 2025, to January 26, 2025.
