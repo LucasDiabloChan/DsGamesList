@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
-import com.aprendizado.ds_list.Game;
 import com.aprendizado.ds_list.dto.GameMinDTO;
+import com.aprendizado.ds_list.entities.Game;
 import com.aprendizado.ds_list.repositories.GameRepository;
 
 // Both can be used to identify this class as an component
@@ -19,7 +19,7 @@ public class GameService {
 	private GameRepository gameRepository;
 
 	public List<GameMinDTO> findAll() {
-		var result = gameRepository.findAll();
+		List<Game> result = gameRepository.findAll();
 		return result.stream().map(x -> new GameMinDTO(x)).toList();
 	}
 }

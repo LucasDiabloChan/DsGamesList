@@ -1,6 +1,6 @@
 package com.aprendizado.ds_list.dto;
 
-import com.aprendizado.ds_list.Game;
+import com.aprendizado.ds_list.entities.Game;
 
 public class GameMinDTO {
 	

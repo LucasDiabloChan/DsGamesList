@@ -1,4 +1,4 @@
-package com.aprendizado.ds_list;
+package com.aprendizado.ds_list.entities;
 
 import java.util.Objects;
 
