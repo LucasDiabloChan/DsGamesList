@@ -1,3 +1,24 @@
+# Build folders and IDEs files
+target/
+.mvn/
+.project
+.classpath
 .git
+.gitignore
+
+# OS Logs
+*.log
+*.tmp
+
+# Project properties
 *.properties
-.env
+*.yml
+
+# H2 cache
+*.db
+*.mv.db
+*.trace.db
+
+# Docker artifacts
+Dockerfile~
+docker-compose.override.yml
