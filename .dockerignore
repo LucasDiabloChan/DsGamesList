@@ -1,6 +1,5 @@
 # Build folders and IDEs files
 target/
-.mvn/
 .project
 .classpath
 .git

@@ -5,8 +5,8 @@ WORKDIR /build
 # Copiar os arquivos do projeto
 COPY ./mvnw ./mvnw
 COPY ./pom.xml ./pom.xml
-COPY ./.mvn ./.mvn
 COPY ./src ./src
+COPY ./.mvn ./.mvn
 
 # Instalar dependências e construir o projeto
 RUN chmod +x ./mvnw
